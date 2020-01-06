@@ -21,29 +21,28 @@ jane = User.create!(
 Item.create!(
   [
     {
-      title: "Martian Chronicles",
-      description: "Cult book by Ray Bradbury",
+      title: "Pachinko",
+      description: "The second novel by Korean-American author Min Jin Lee",
       user: john,
-      image_url: "https://upload.wikimedia.org/wikipedia/en/4/45/The-Martian-Chronicles.jpg"
+      image_url: "https://en.wikipedia.org/wiki/Pachinko_(novel)#/media/File:Pachinko_paperback_cover.jpeg"
     },
     {
-      title: "The Martian",
-      description: "Novel by Andy Weir about an astronaut stranded on Mars trying to survive",
+      title: "When Breath Becomes Air",
+      description: "It is a memoir about his life and illness, battling stage IV metastatic lung cancer. ",
       user: john,
-      image_url: "https://upload.wikimedia.org/wikipedia/en/c/c3/The_Martian_2014.jpg"
+      image_url: "https://en.wikipedia.org/wiki/When_Breath_Becomes_Air#/media/File:When_Breath_Becomes_Air.jpg"
     },
     {
-      title: "Doom",
-      description: "A group of Marines is sent to the red planet via an ancient " \
-                   "Martian portal called the Ark to deal with an outbreak of a mutagenic virus",
+      title: "The Four Loves",
+      description: "Explores the nature of love from a Christian and philosophical perspective through thought experiments.",
       user: jane,
-      image_url: "https://upload.wikimedia.org/wikipedia/en/5/57/Doom_cover_art.jpg"
+      image_url: "https://en.wikipedia.org/wiki/The_Four_Loves#/media/File:The_Four_Loves.JPG"
     },
     {
-      title: "Mars Attacks!",
-      description: "Earth is invaded by Martians with unbeatable weapons and a cruel sense of humor",
+      title: "Mere Christianity",
+      description: "A theological book by C. S. Lewis,",
       user: jane,
-      image_url: "https://upload.wikimedia.org/wikipedia/en/b/bd/Mars_attacks_ver1.jpg"
+      image_url: "https://en.wikipedia.org/wiki/Mere_Christianity#/media/File:MereChristianity.JPG"
     }
   ]
 )
